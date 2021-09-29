@@ -1,0 +1,49 @@
+nav#navBar {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    max-width: 100vw;
+    height: 9vh;
+  
+  }
+  
+  #backBtn {
+    margin: 2vh 0 0 2vh;
+  }
+  
+  
+  nav ul {
+  position: relative;
+    display: flex;
+    list-style: none;
+    max-width: 100vw;
+    height: 100%;
+  
+  }
+  
+  nav ul li {
+    width: 33.3vw;
+    
+  }
+  
+  nav ul li a {
+    display: block;
+    height: 100%;
+    font-size: 26px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    border-top: 1.5px solid #9b9b9b2e;
+  }
+  
+  img.icon {
+    max-width: 46%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  

@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+  }
+
+  body, html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#userIcon {
+  border-top: 2px solid #5cc497;
+}
+
+#backBtn {
+    margin: 2vh 0 0 2vh;
+    position: fixed;
+    z-index: 9;
+}
+
+#photo {
+    margin-bottom: 6vh;
+}
+
+.round {
+  top: 50%;
+  width: 155px;
+  height: 155px;
+  border: 5px solid #a8e1ca;
+  border-radius: 50%;
+  margin-left: 50%;
+  transform: translate(-50%, 0%);
+  overflow: hidden;
+  margin-top: 6vh;
+  margin-bottom: 2.5vh;
+}
+
+img.userImg {
+    min-width: 100%;
+    max-width: 100%;
+    transform: translate(0px, -35px);
+}
+
+#greenDiv {
+    width: 100vw;
+    height: 42vh;
+    background-color: #5cc497;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 0% 0% 18% 18%;
+}
+
+h1 {
+    color: white;
+    font-size: 28px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.points {
+  border: 3px solid #5cc497;
+  border-radius: 18px;
+  width: 115px;
+  height: 115px;
+  position: fixed;
+}
+
+#rank {
+  top: 47%;
+  left: 15%;
+}
+
+#gems {
+  top: 47%;
+  right: 15%;
+}
+
+#sets {
+  top: 68%;
+  left: 15%;
+}
+
+#win {
+  top: 68%;
+  right: 15%;
+}
+
+.numbers {
+  margin-top: 5%;
+  font-family: 'Roboto', sans-serif;
+  color: #5cc497;
+  font-size: 60px;
+  text-align: center;
+}
+
+.typeOfWin {
+  font-size: 18px;
+  color: #a7a9ac;
+  text-transform: uppercase;
+  text-align: center;
+}

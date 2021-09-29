@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+body, html {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#userIcon {
+  border-top: 2px solid #5cc497;
+}
+
+#photo {
+    margin-bottom: 6vh;
+}
+
+.round {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #a8e1ca;
+  border-radius: 50%;
+  margin-left: 50%;
+  transform: translate(-50%, 0%);
+  overflow: hidden;
+  margin-top: 10vh;
+  margin-bottom: 6vh;
+}
+
+img.userImg {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+input {
+  width: 50%;
+ margin-left: 50%;
+ margin-bottom: 5vh;
+ transform: translate(-50%, 0);
+ border: 3px solid #ddd;
+ border-radius: 8px;
+ height: 45px;
+ padding-left: 10px;
+ background-color: #f7f7f7;
+  font-size: 18px;
+}
+
+::placeholder {
+  color: #bbb;
+}
+
+input[type=text] {
+  color: #a7a9ac;
+  font-weight: normal;
+}
+
+input:focus {
+  border: 3px solid #ddd;
+  outline: none;
+}

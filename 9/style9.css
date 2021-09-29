@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+  }
+
+body, html {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#statsIcon {
+  border-top: 2px solid #5cc497;
+}
+
+section {
+  display: flex;
+  width: 80vw;
+  margin: 20px auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+
+a {
+    width: 100%;
+    text-decoration: none;
+  }  
+
+#rankUsers li {
+    width: 75vw;
+    border: 3px solid #5cc497;
+    border-radius: 8px;
+    height: 45px;
+    list-style: none;
+    color: #a7a9ac;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+
+#rankUsers li a {
+    color: #a7a9ac;
+    font-size: 24px;
+    letter-spacing: 1px;
+    display: block;
+    height: 100%;
+    margin-bottom: 5px;
+    text-decoration: none;
+    text-align: left;
+    position: relative;
+    line-height: 38px;
+}
+
+#rankUsers li p {
+   display: inline-block;
+   height: 100%;
+   transform: translate(0%, -5%);
+   margin-left: 8px;
+   font-weight: 600;
+}
+
+#rankUsers li p.userName {
+    margin-left: -10px;
+    font-weight: 500;
+    font-size: 18px;
+    transform: translate(0%, -10%);
+}
+
+#rankUsers li p.points {
+    color: #5cc497;
+    font-size: 20px;
+    position: absolute;
+    right: 4%;
+    transform: translate(0%, -10%);
+    width: 30px;
+    text-align: center;
+}
+
+#rankUsers li p.kindOfGame {
+    position: absolute;
+    color: #a7a9ac;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    right: 4%;
+    top: 35%;
+    transform: translate(0%, -5%);
+}
+
+
+h1 {
+    color: #a7a9ac;
+    font-size: 26px;
+    position: fixed;
+    top: 2vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-weight: 300;
+    white-space: nowrap;
+  }
+
+#next {
+    margin-bottom: 11vh;
+}
+
+#timeFilter {
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.timeCheck {
+    height: 30px;
+    width: 30%;
+    border: 2.5px solid #5cc497;
+    color: #5cc497;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+p.timeRange {
+    margin: 0 auto;
+    font-weight: 600;
+}
+
+
+#gameFilter {
+    margin-top: 1.5vh;
+    margin-bottom: 4vh;
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.gameCheck {
+    height: 30px;
+    width: 30%;
+    border: 2.5px solid #5cc497;
+    color: #fff;
+    border-radius: 8px;
+    background-color: #5cc497;
+    display: flex;
+    align-items: center;
+}
+
+p.gameType {
+    margin: 0 auto;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+}
+
+.round {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #a8e1ca;
+    border-radius: 50%;
+    margin-left: 15px;
+    transform: translate(-50%, 15%);
+    overflow: hidden;
+}
+
+img.userImg {
+    min-width: 100%;
+    max-width: 100%;
+    transform: translate(0%, -5%);
+
+}

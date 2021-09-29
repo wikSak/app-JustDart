@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+  }
+
+body, html {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#homeIcon {
+  border-top: 2px solid #5cc497;
+}
+
+section {
+  display: flex;
+  width: 80vw;
+  margin: 20px auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+a {
+  width: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    color: #5cc497;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: fixed;
+    top: 3vh;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #a7a9ac;
+    text-transform: uppercase;
+    margin-bottom: 2vh;
+}
+
+#bottomBtn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+#next {
+    margin-bottom: 11vh;
+}
+
+#playersContainer {
+    margin-top: 2vh;
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.player {
+    height: 60px;
+    width: 100%;
+    border: 3px solid #5cc497;
+    border-radius: 8px;
+    margin: 3vh auto;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.player label {
+    color: #a7a9ac;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.player input {
+    display: none;
+}
+
+.player label::after {
+  content: "";
+  position: absolute;
+  right: 15%;
+  width: 30px;
+  height: 30px;
+  border: 3px solid #5cc497;
+  border-radius: 50%;
+  transform: translateY(-8%);
+}
+
+.player label::before {
+    content: "";
+    position: absolute;
+    right: 15%;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #5cc497;
+    background-color: #5cc497;
+    border-radius: 50%;
+    opacity: 0;
+    transform: translateY(-8%);
+}
+
+.player input:checked ~ label::before {
+    opacity: 1;
+}
+
+.round {
+    width: 35px;
+    height: 35px;
+    border: 3px solid #a8e1ca;
+    border-radius: 50%;
+    margin-left: 15px;
+    transform: translate(-50%, 0%);
+    overflow: hidden;
+}
+
+img.userImg {
+    min-width: 100%;
+    max-width: 100%;
+
+}

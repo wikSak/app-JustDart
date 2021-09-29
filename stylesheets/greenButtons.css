@@ -1,0 +1,14 @@
+.greenButtons{
+    height: 45px;
+    background-color: #5cc497;
+    margin-bottom: 3vh;
+    width: 50%;
+    border: 3px solid #5cc497;
+    border-radius: 8px;
+    color: #fff;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: 26px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }

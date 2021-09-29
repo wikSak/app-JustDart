@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+  }
+
+  body, html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#homeIcon {
+    border-top: 2px solid #5cc497;
+  }
+
+  h1 {
+    color: #a7a9ac;
+    font-size: 26px;
+    position: fixed;
+    top: 2vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-weight: 300;
+    white-space: nowrap;
+  }
+
+  #usersAll {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-width: 80vw;
+    height: 66vh;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p.userName {
+      color: #a7a9ac;
+      text-align: center;
+      margin-top: 1vh;
+      letter-spacing: 1px;
+      font-size: 17px;
+      font-weight: 300;
+  }
+  
+  .round {
+    width: 95px;
+    height: 95px;
+    border: 3px solid #a8e1ca;
+    border-radius: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+    overflow: hidden;
+ }
+
+ .boldFrame {
+    border: 6px solid #5cc497;
+    border-radius: 50%;
+  }
+
+  img.userImg {
+      min-width: 100%;
+      max-width: 100%;
+  }
+
+  .needName {
+    width: 95px;
+    margin: auto;
+    position: relative;
+}
+
+.check {
+    position: absolute;
+    display: none;
+}
+.checkDisplay {
+    display: block;
+}
+
+#checkOne {
+    bottom: 0;
+    right: 0;
+}
+#checkTwo {
+    bottom: 0;
+    right: 0;
+}
+#checkThree {
+    bottom: 0;
+    right: 0;
+}
+#checkFour {
+    bottom: 0;
+    right: 0;
+}
+#checkFive {
+    bottom: 0;
+    right: 0;
+}
+#checkSix {
+    bottom: 0;
+    right: 0;
+}
+
